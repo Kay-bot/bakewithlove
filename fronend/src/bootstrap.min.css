@@ -10055,8 +10055,8 @@ a.text-dark:focus {
 .navbar-brand {
   padding-top: 0.5rem;
   font-size: inherit;
-  font-weight: 700;
-  text-transform: uppercase;
+  font-weight: 900;
+  /* text-transform: uppercase; */
 }
 .btn {
   font-family: 'News Cycle', 'Arial Narrow Bold', sans-serif;
