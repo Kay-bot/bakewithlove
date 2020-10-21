@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "\"NotJustPicnic shopping cart app - all stuff for outdoor and indoor parties\"",
   "main": "server.js",
+  "type":"module",
   "scripts": {
     "start": "node backend/server",
     "server": "nodemon backend/server",
