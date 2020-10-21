@@ -1,0 +1,22 @@
+{
+  "name": "notjustpicnic",
+  "version": "1.0.0",
+  "description": "\"NotJustPicnic shopping cart app - all stuff for outdoor and indoor parties\"",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kay-bot/fronend.git"
+  },
+  "author": "Kay Srikaew",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kay-bot/fronend/issues"
+  },
+  "homepage": "https://github.com/Kay-bot/fronend#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
