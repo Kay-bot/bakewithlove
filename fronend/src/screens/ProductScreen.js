@@ -16,8 +16,6 @@ const ProductScreen = ({ match }) => {
   const product = products.find((p) => p._id === match.params.id);
 
   const {
-    brand,
-    category,
     countInStock,
     description,
     image,
@@ -25,7 +23,6 @@ const ProductScreen = ({ match }) => {
     numReviews,
     price,
     rating,
-    _id,
   } = product;
   return (
     <>
