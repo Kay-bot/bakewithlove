@@ -8,8 +8,7 @@ import {
   ListGroup,
   Card,
   Button,
-  ListGroupItem,
-  FormControl,
+  Form,
 } from 'react-bootstrap';
 import Rating from '../components/Rating';
 import { listProductDetails } from '../actions/productActions';
@@ -67,16 +66,16 @@ const ProductScreen = ({ history, match }) => {
           <Col md={3}>
             <Card>
               <ListGroup variant="flush">
-                <ListGroupItem>
+                <ListGroup.Item>
                   <Row>
                     <Col>Price:</Col>
                     <Col>
                       <strong>${product.price}</strong>
                     </Col>
                   </Row>
-                </ListGroupItem>
+                </ListGroup.Item>
 
-                <ListGroupItem>
+                <ListGroup.Item>
                   <Row>
                     <Col>Status:</Col>
                     <Col>
@@ -85,14 +84,14 @@ const ProductScreen = ({ history, match }) => {
                       </strong>
                     </Col>
                   </Row>
-                </ListGroupItem>
+                </ListGroup.Item>
 
                 {product.countInStock > 0 && (
-                  <ListGroupItem>
+                  <ListGroup.Item>
                     <Row>
-                      <Col>Qty:</Col>
+                      <Col>Qty</Col>
                       <Col>
-                        <FormControl
+                        <Form.Control
                           as="select"
                           value={qty}
                           onChange={(e) => setQty(e.target.value)}
@@ -102,13 +101,13 @@ const ProductScreen = ({ history, match }) => {
                               {x + 1}
                             </option>
                           ))}
-                        </FormControl>
+                        </Form.Control>
                       </Col>
                     </Row>
-                  </ListGroupItem>
+                  </ListGroup.Item>
                 )}
 
-                <ListGroupItem>
+                <ListGroup.Item>
                   <Button
                     onClick={addToCartHandler}
                     className="btn-block"
@@ -117,7 +116,7 @@ const ProductScreen = ({ history, match }) => {
                   >
                     Add To Cart
                   </Button>
-                </ListGroupItem>
+                </ListGroup.Item>
               </ListGroup>
             </Card>
           </Col>
