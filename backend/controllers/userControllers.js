@@ -28,7 +28,7 @@ const registerUser = asyncHandler(async (req, res) => {
 
   if (userExists) {
     res.status(400);
-    throw new Error('User already exits');
+    throw new Error('User already exists');
   }
 
   const user = await User.create({
@@ -91,5 +91,4 @@ const updateUserProfile = asyncHandler(async (req, res) => {
     throw new Error('User not found');
   }
 });
-
 export { authUser, getUserProfile, registerUser, updateUserProfile };
