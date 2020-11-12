@@ -17,6 +17,13 @@ h3 {
 .carousel-item.active {
   display: flex;
 }
+
+.carousel-bg {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3)), url('/images/bg-image.jpg') no-repeat center / cover;
+
+}
+
+
 .carousel-caption {
   position: absolute;
   top: 0;

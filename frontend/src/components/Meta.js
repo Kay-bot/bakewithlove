@@ -12,7 +12,7 @@ const Meta = ({ title, description, keywords }) => {
 };
 
 Meta.defaultProps = {
-  title: 'Welcome To ProShop',
+  title: 'Welcome To BackWithLove',
   description: 'We sell the best delicious bakery',
   keywords: 'pastries, bakery, daily delicious bakery, online delivery bakery',
 };
