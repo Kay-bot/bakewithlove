@@ -1,7 +1,7 @@
 {
-  "name": "notjustpicnic",
+  "name": "bakewithlove",
   "version": "1.0.0",
-  "description": "\"NotJustPicnic shopping cart app - all stuff for outdoor and indoor parties\"",
+  "description": "\"Bakewithlove shopping cart app - all stuff for outdoor and indoor parties\"",
   "main": "server.js",
   "type": "module",
   "scripts": {
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Kay-bot/fronend.git"
+    "url": "git+https://github.com/Kay-bot/bakewithlove.git"
   },
   "author": "Kay Srikaew",
   "license": "ISC",
