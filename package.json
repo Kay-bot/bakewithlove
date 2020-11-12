@@ -19,9 +19,9 @@
   "author": "Kay Srikaew",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Kay-bot/fronend/issues"
+    "url": "https://github.com/Kay-bot/bakewithlove/issues"
   },
-  "homepage": "https://github.com/Kay-bot/fronend#readme",
+  "homepage": "https://github.com/Kay-bot/bakewithlove#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "colors": "^1.4.0",
@@ -30,6 +30,7 @@
     "express-async-handler": "^1.1.4",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.10.9",
+    "morgan": "^1.10.0",
     "multer": "^1.4.2"
   },
   "devDependencies": {
